@@ -25,3 +25,12 @@ GIT CONFIG
 - git config --global user.name ‘My Name Is’
 - git config --global user.email ‘myemailis@this.shit’
 
+CREATING REMOTE BRANCHS
+
+First, you create your branch locally:
+
+git checkout -b <branch-name> # Create a new branch and check it out
+
+The remote branch is automatically created when you push it to the remote server. So when you feel ready for it, you can just do:
+
+git push <remote-name> <branch-name> 
